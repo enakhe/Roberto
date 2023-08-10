@@ -213,5 +213,68 @@ ul {
     cursor: pointer;
     color: var(--primary-color);
     background-color: white;
-    border: 2px solid var(--primary-color\);
+    border: 2px solid var(--primary-color);
+}
+
+/* Welcome Styling */
+.welcome {
+    margin-top: 250px;
+    margin-left: 220px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome img {
+    border-radius: 3px;
+}
+
+.welcome-message {
+    max-width: 800px;
+    margin-right: 50px;
+}
+
+.welcome-message h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.welcome-message h2 {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.welcome-message p {
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(47, 46, 46);
+    font-weight: 200;
+}
+
+.welcome-message h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.owner {
+    color: var(--primary-color);
+}
+
+.img-section {
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid {
+    margin-right: -87px;
+}
+
+.welcome .img1 {
+    width: 77%;
+}
+
+.welcome .img2 {
+    width: 312px;
 }
